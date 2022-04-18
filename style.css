@@ -1,0 +1,69 @@
+
+
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: LightPink;
+}
+
+#main_play_area{
+    background-color: LightSkyBlue;
+    background-image: url(img/fundo.png);
+    height: 600px;
+    width: 600px;
+}
+
+.game_instructions {
+    position: relative;
+    color: white;
+    left: 4rem;
+    top: 0px;
+    font-size: 30px;
+}
+.start_button {
+    position: relative;
+    color: pink;
+    top: -4rem;
+    left: 13rem;
+    cursor: pointer;
+    font-size: 45px;
+}
+.player_hero{
+    position: relative;
+    height: 170px;
+    width:290px;
+    left: -40px;
+    top: 360px;
+}
+
+.magicPink{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-image: url(img/magicPink.png);
+
+}
+.carta{
+    height: 60px;
+    width: 70px;
+    position: relative;
+}
+
+.carta_transition{
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.carta_transformada{
+    height: 60px;
+    width: 70px;
+    position: relative;
+    opacity: 0;
+}

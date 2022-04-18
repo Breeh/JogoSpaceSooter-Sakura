@@ -1,0 +1,67 @@
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: LightPink;
+}
+
+#main-play-area {
+    background-color: LightSkyBlue;
+    background-image: url(img/fundo.png);
+    height: 600px;
+    width: 790px;
+}
+
+.game-instructions {
+    position: relative;
+    color: white;
+    left: 4rem;
+    top: 0px;
+    font-size: 30px;
+}
+
+.start-button {
+    position: relative;
+    color: pink;
+    top: -4rem;
+    left: 13rem;
+    cursor: pointer;
+    font-size: 45px;
+}
+
+.player-shooter {
+    position: relative;
+    height: 170px;
+    width: 270px;
+    left: -38px;
+    top: 368px
+}
+
+.laser {
+    position: relative;
+    width: 40px;
+    height: 30px;
+}
+
+.alien {
+    height: 60px;
+    width: 70px;
+    position: relative;
+}
+
+.alien-transition {
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.dead-alien {
+    height: 60px;
+    width: 70px;
+    position: relative;
+    opacity: 0;
+}
